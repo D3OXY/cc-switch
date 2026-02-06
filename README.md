@@ -5,7 +5,7 @@ Switch between multiple Claude Code accounts from the terminal.
 ## Install
 
 ```bash
-npm install -g cc-switch
+npm install -g @d3oxy/cc-switch
 ```
 
 ## Platform Support

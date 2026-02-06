@@ -1,10 +1,10 @@
 {
-  "name": "cc-switch",
+  "name": "@d3oxy/cc-switch",
   "version": "0.1.0",
   "description": "Switch between multiple Claude Code accounts",
   "type": "module",
   "bin": {
-    "ccs": "./dist/cli.js"
+    "ccs": "dist/cli.js"
   },
   "files": [
     "dist"
