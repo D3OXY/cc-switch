@@ -1,0 +1,44 @@
+{
+  "name": "cc-switch",
+  "version": "0.1.0",
+  "description": "Switch between multiple Claude Code accounts",
+  "type": "module",
+  "bin": {
+    "ccs": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "@inquirer/prompts": "^7.3.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3oxy/cc-switch.git"
+  },
+  "homepage": "https://github.com/d3oxy/cc-switch#readme",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "account-switcher",
+    "cli",
+    "multi-account"
+  ]
+}
